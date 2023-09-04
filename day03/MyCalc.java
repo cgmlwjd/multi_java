@@ -2,8 +2,11 @@ package day03;
 
 import javax.swing.*;
 import javax.swing.text.*;
-import java.awt.*;
+
+import java.awt.BorderLayout;
+import java.awt.Font;
 import java.awt.event.*;
+import java.awt.*;
 
 
 public class MyCalc {
