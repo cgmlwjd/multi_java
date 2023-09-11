@@ -21,7 +21,7 @@ public class MyDiary {
 		f.getContentPane().add(panel, BorderLayout.CENTER);
 		panel.setLayout(null);
 		
-		JLabel lblNewLabel = new JLabel("New label");
+		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setIcon(new ImageIcon(MyDiary.class.getResource("/day06/diary.png")));
 		lblNewLabel.setBounds(90, 20, 500, 296);
 		panel.add(lblNewLabel);
@@ -69,7 +69,8 @@ public class MyDiary {
 			
 			sub.createSubGui();
 			
-				
+			f.setVisible(false);
+			f.dispose();	
 				
 			}
 		});
