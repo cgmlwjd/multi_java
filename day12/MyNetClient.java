@@ -21,7 +21,7 @@ public static void main(String[] args) throws IOException {
 		out.write(sendData);
 		out.flush();
 		
-		
+		out.close();
 		is.close();
 		sock.close();
 	}

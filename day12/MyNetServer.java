@@ -33,6 +33,8 @@ public class MyNetServer {
 			String str = new String(rcvData, 0, n);
 			System.out.println("From Client>> " + str);
 			
+			if(in!=null) in.close();
+			
 			if(os != null) {
 				os.close();
 			}
